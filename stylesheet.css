@@ -1,0 +1,68 @@
+*{
+    outline: 1px solid red;
+    background-color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header,.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    max-width: 1200px;
+}
+
+a{
+    color: #F9FAF8;
+    padding: 8px;
+    padding-left: 25px;    
+}
+
+.headerContainer{
+display: flex;
+align-items: center;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.logoItem{
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.navItem{
+    display: flex;  
+    margin-left: auto;
+}
+
+.navLink{
+    display: flex;
+    
+}
+
+.hero{
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.quote{
+    background-color: #E5E7EB;
+}
+
+.quoteText{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.callToAction{
+    background-color: #3882F6;
+}
+
+.footer{
+    text-align: center;
+    padding: 25px;
+}
