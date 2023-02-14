@@ -83,12 +83,30 @@ h1{
 
 .quote{
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quoteText{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    max-width: 1000px;
+    
+}
+
+.author{
+    display: flex;
+    width: 1000px;
+}
+
+.leftA{
+    margin-left: auto;
+    padding-right: 150px;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 .callToAction{
@@ -98,6 +116,7 @@ h1{
     font-weight: bold;
     padding: 5px;
     border-radius: 5px;
+    border-color: white;
 }
 
 .preview{
@@ -121,10 +140,47 @@ h1{
 .pick{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex: 1 1 auto;
-    outline: 1px solid red;
     margin: 15px;
 }
+
+.team{
+    max-width: 100px;
+    outline: 3px solid #3882F6;
+    border-radius: 15px;
+
+}
+
+.actionContainer{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 50px;
+}
+
+.callToActionSection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #3882F6;
+    width: 750px;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.divLeft{
+
+}
+
+.divRight{
+    
+}
+
 
 .footer{
     text-align: center;
