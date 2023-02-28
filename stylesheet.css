@@ -49,26 +49,33 @@ background-color: #1F2937;
     background-color: #1F2937;
     display:flex;
     align-items: center;
+    justify-content: center;
+    padding-left: auto;
 }
 
 .leftHero{
     display: flex;
     flex-direction: column;
     padding: 25px;
-    max-width: 45%;
+    max-width: 500px;
+    flex: 1 1 auto;
     margin-left: auto;
+    outline: 1px solid rgb(0, 4, 255);
     
 }
 
 .rightHero{
-    flex-basis: 50%;
+    display: flex;
+    flex: 1 1 auto;
     padding: 25px;
-
+    outline: 1px solid red;
+    max-width: fit-content;
+    margin-right: auto;
 }
 
 .imgHero{
     height: auto;
-    width: 300px;
+    width: 350px;
 }
 
 .heroText{
@@ -87,6 +94,7 @@ h1{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 25px;
 }
 
 .quoteText{
